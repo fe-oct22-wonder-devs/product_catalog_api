@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/server.ts"
+    "start": "nodemon src/server.ts",
+    "prepare": "husky install",
+    "lint": "npx eslint ./"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/fe-oct22-wonder-devs/product_catalog_api#readme",
   "devDependencies": {
+    "@mate-academy/eslint-config": "0.0.20",
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
     "@types/node": "^18.14.2",
@@ -27,7 +30,8 @@
     "eslint": "^8.35.0",
     "nodemon": "^2.0.20",
     "ts-node": "^10.9.1",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "husky": "^8.0.0"
   },
   "dependencies": {
     "cors": "^2.8.5",

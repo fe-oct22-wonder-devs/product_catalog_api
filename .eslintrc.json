@@ -4,7 +4,7 @@
         "es2021": true
     },
     "extends": [
-        "eslint:recommended",
+        "@mate-academy/eslint-config",
         "plugin:@typescript-eslint/recommended"
     ],
     "overrides": [
@@ -18,21 +18,5 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "indent": [
-            "error",
-            4
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "single"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ]
     }
 }
