@@ -1,22 +1,23 @@
-import express from "express";
+import express from 'express';
 import cors from 'cors';
 
 const PORT = 8000;
 
 const users = [
-    { id: 1, name: 'Joe Biden', carColorId: 5 },
-    { id: 2, name: 'Elon Musk', carColorId: 4 },
-    { id: 3, name: 'Pan Roman', carColorId: 2 },
+  { id: 1, name: 'Joe Biden', carColorId: 5 },
+  { id: 2, name: 'Elon Musk', carColorId: 4 },
+  { id: 3, name: 'Pan Roman', carColorId: 2 },
 ];
 
 const app = express();
 
-app.use(cors())
+app.use(cors());
 
 app.get('/', (req, res) => {
-    res.send(users);
-})
+  res.send(users);
+});
 
 app.listen(PORT, () => {
-    console.log(`API is ready on http://localhost:${PORT} 🚀🚀🚀`);
-})
+  /* eslint-disable no-console */
+  console.log(`API is ready on http://localhost:${PORT} 🚀🚀🚀`);
+});
