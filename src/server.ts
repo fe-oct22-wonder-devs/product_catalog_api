@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import {router as userRouter}  from "./routes/user.route";
+import { router as userRouter } from './routes/user.route';
 
 const PORT = 8000;
 
@@ -8,7 +8,7 @@ const app = express();
 
 app.use(cors());
 
-app.use('/phones', userRouter)
+app.use('/phones', userRouter);
 
 app.listen(PORT, () => {
   /* eslint-disable no-console */
