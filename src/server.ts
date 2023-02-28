@@ -1,21 +1,14 @@
 import express from 'express';
 import cors from 'cors';
+import { router as userRouter } from './routes/user.route';
 
 const PORT = 8000;
-
-const users = [
-  { id: 1, name: 'Joe Biden', carColorId: 5 },
-  { id: 2, name: 'Elon Musk', carColorId: 4 },
-  { id: 3, name: 'Pan Roman', carColorId: 2 },
-];
 
 const app = express();
 
 app.use(cors());
 
-app.get('/', (req, res) => {
-  res.send(users);
-});
+app.use('/phones', userRouter);
 
 app.listen(PORT, () => {
   /* eslint-disable no-console */
