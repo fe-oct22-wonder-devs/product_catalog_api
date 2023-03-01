@@ -2,4 +2,4 @@
 
 get /phones - get array of phones
 
-get /phones?limit=10&offset=5 - get 10 phones started from index 5
+get /phones?page=1&perPage=5&sort=cheapest - firs 5 sorted by(newest, alphabetically) cheapest price
