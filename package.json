@@ -1,13 +1,12 @@
 {
   "name": "product_catalog_api",
   "version": "1.0.0",
-  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon src/server.ts",
-    "start": "node src/server.ts",
+    "start": "nodemon src/server.ts",
+    "startNode": "node src/server.ts",
     "prepare": "husky install",
     "lint": "npx eslint ./src"
   },
