@@ -8,4 +8,4 @@ get /phones/1 - get one phones with id=1
 
 get /phones/length - length of phones array
 
-get /phones?page=1&perPage=5&sort=Cheapest - firs 5 sorted by(newest, alphabetically) cheapest price
+get /phones?page=1&perPage=5&sort=Cheapest - firs 5 sorted by(newest, alphabetically) cheapest price.
