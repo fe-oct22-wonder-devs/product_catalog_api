@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1",
+    "category": "tablets",
+    "phoneId": "ipad-pro-11inch-grey",
+    "itemId": "ipad-pro-11inch-grey",
+    "name": "iPad Pro 11-inch Grey",
+    "fullPrice": 850,
+    "price": 799,
+    "screen": "11' Liquid Retina",
+    "capacity": "128GB",
+    "color": "grey",
+    "ram": "8GB",
+    "year": 2022,
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadpro11-digitalmat-gallery-1-202210?wid=728&hei=666&fmt=png-alpha&.v=1664477161220"
+  },
+  {
+    "id": "2",
+    "category": "tablets",
+    "phoneId": "ipad-air-10.9inch-grey",
+    "itemId": "ipad-air-10.9inch-grey",
+    "name": "iPad Air 10.9-inch Grey",
+    "fullPrice": 650,
+    "price": 599,
+    "screen": "10.9' Liquid Retina",
+    "capacity": "128GB",
+    "color": "grey",
+    "ram": "8GB",
+    "year": 2022,
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadair-digitalmat-gallery-1-202203?wid=728&hei=666&fmt=jpeg&qlt=90&.v=1644962768135"
+  },
+  {
+    "id": "3",
+    "category": "tablets",
+    "phoneId": "ipad-mini-8.3inch-grey",
+    "itemId": "ipad-air-8.3inch-grey",
+    "name": "iPad mini Grey",
+    "fullPrice": 550,
+    "price": 499,
+    "screen": "8.3' Liquid Retina",
+    "capacity": "128GB",
+    "color": "grey",
+    "ram": "8GB",
+    "year": 2022,
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-digitalmat-gallery-1-202111?wid=730&hei=666&fmt=png-alpha&.v=1635183174000"
+  }
+
+]
