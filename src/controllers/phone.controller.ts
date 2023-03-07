@@ -1,5 +1,5 @@
 import express from 'express';
-import { checkLength, findOne, findMany } from '../servises/user.servis';
+import { checkLength, findOne, findMany } from '../servises/phone.servis';
 
 export const getMany = async(req: express.Request, res: express.Response) => {
   const { perPage, page, sort } = req.query;

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "ipad-pro-11inch-grey",
+    "namespaceId": "ipad-pro-11inch",
+    "name": "iPad Pro 11-inch Grey",
+    "capacityAvailable": ["128GB"],
+    "capacity": "128GB",
+    "priceRegular": 850,
+    "priceDiscount": 799,
+    "colorsAvailable": ["grey"],
+    "color": "grey",
+    "images": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadpro11-digitalmat-gallery-1-202210?wid=728&hei=666&fmt=png-alpha&.v=1664477161220",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadpro11-digitalmat-gallery-2-202210?wid=728&hei=666&fmt=png-alpha&.v=1665083965975",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadpro11-digitalmat-gallery-3-202210?wid=728&hei=666&fmt=png-alpha&.v=1664477161231",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadpro11-digitalmat-gallery-4-202210?wid=728&hei=666&fmt=png-alpha&.v=1664477161238",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadpro11-digitalmat-gallery-5-202210?wid=728&hei=666&fmt=png-alpha&.v=1664477161177"
+    ],
+    "description": [
+      {
+        "title": "And then there was Pro",
+        "text": [
+          "A transformative camera system that adds tons of capability without complexity.",
+          "An unprecedented leap in battery life. And a mind-blowing chip that doubles down on machine learning and pushes the boundaries of what a tablet can do."
+        ]
+      },
+      {
+        "title": "Camera",
+        "text": [
+          "Meet the camera system to combine cutting-edge technology with the legendary simplicity of iPad. Capture up to four times more scene. Get beautiful images in drastically lower light. Shoot the highest-quality video in a tablet — then edit with the same tools you love for photos. You’ve never shot with anything like it."
+        ]
+      },
+      {
+        "title": "Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.",
+        "text": [
+          "iPad lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with."
+        ]
+      }
+    ],
+    "screen": "11' Liquid Retina",
+    "resolution": "2048×1080",
+    "processor": "Apple A13 Bionic",
+    "ram": "8GB",
+    "camera": "12 Mp",
+    "zoom": "Digital, 5x",
+    "cell": ["GPRS", "LTE"]
+  },
+  {
+    "id": "ipad-air-10.9inch-grey",
+    "namespaceId": "ipad-air-10.9inch",
+    "name": "iPad Air 10.9-inch Grey",
+    "capacityAvailable": ["128GB"],
+    "capacity": "128GB",
+    "priceRegular": 650,
+    "priceDiscount": 599,
+    "colorsAvailable": ["grey"],
+    "color": "grey",
+    "images": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadair-digitalmat-gallery-1-202203?wid=728&hei=666&fmt=jpeg&qlt=90&.v=1644962768135",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadair-digitalmat-gallery-2-202203_GEO_US?wid=728&hei=666&fmt=png-alpha&.v=1645724601636",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadair-digitalmat-gallery-3-202203?wid=728&hei=666&fmt=jpeg&qlt=90&.v=1644962768498",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadair-digitalmat-gallery-4-202203?wid=728&hei=666&fmt=jpeg&qlt=90&.v=1644962768511",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipadair-digitalmat-gallery-5-202203?wid=728&hei=666&fmt=png-alpha&.v=1644962768260"
+    ],
+    "description": [
+      {
+        "title": "And then there was Pro",
+        "text": [
+          "A transformative camera system that adds tons of capability without complexity.",
+          "An unprecedented leap in battery life. And a mind-blowing chip that doubles down on machine learning and pushes the boundaries of what a tablet can do."
+        ]
+      },
+      {
+        "title": "Camera",
+        "text": [
+          "Meet the camera system to combine cutting-edge technology with the legendary simplicity of iPad. Capture up to four times more scene. Get beautiful images in drastically lower light. Shoot the highest-quality video in a tablet — then edit with the same tools you love for photos. You’ve never shot with anything like it."
+        ]
+      },
+      {
+        "title": "Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.",
+        "text": [
+          "iPad lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with."
+        ]
+      }
+    ],
+    "screen": "10.9' Liquid Retina",
+    "resolution": "2048×1080",
+    "processor": "Apple A13 Bionic",
+    "ram": "8GB",
+    "camera": "12 Mp",
+    "zoom": "Digital, 5x",
+    "cell": ["GPRS", "LTE"]
+  },
+  {
+    "id": "ipad-mini-8.3inch-grey",
+    "namespaceId": "ipad-mini-8.3inch",
+    "name": "iPad mini Grey",
+    "capacityAvailable": ["128GB"],
+    "capacity": "128GB",
+    "priceRegular": 550,
+    "priceDiscount": 499,
+    "colorsAvailable": ["grey"],
+    "color": "grey",
+    "images": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-digitalmat-gallery-1-202111?wid=730&hei=666&fmt=png-alpha&.v=1635183174000",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-digitalmat-gallery-2-202111?wid=730&hei=666&fmt=jpeg&qlt=90&.v=1635183177000",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-digitalmat-gallery-3-202111?wid=730&hei=666&fmt=png-alpha&.v=1635183176000",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-digitalmat-gallery-4-202111?wid=730&hei=666&fmt=jpeg&qlt=90&.v=1635183177000",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-digitalmat-gallery-5-202111?wid=730&hei=666&fmt=png-alpha&.v=1635183176000"
+    ],
+    "description": [
+      {
+        "title": "And then there was Pro",
+        "text": [
+          "A transformative camera system that adds tons of capability without complexity.",
+          "An unprecedented leap in battery life. And a mind-blowing chip that doubles down on machine learning and pushes the boundaries of what a tablet can do."
+        ]
+      },
+      {
+        "title": "Camera",
+        "text": [
+          "Meet the camera system to combine cutting-edge technology with the legendary simplicity of iPad. Capture up to four times more scene. Get beautiful images in drastically lower light. Shoot the highest-quality video in a tablet — then edit with the same tools you love for photos. You’ve never shot with anything like it."
+        ]
+      },
+      {
+        "title": "Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.",
+        "text": [
+          "iPad lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with."
+        ]
+      }
+    ],
+    "screen": "8.3' Liquid Retina",
+    "resolution": "2048×1080",
+    "processor": "Apple A13 Bionic",
+    "ram": "8GB",
+    "camera": "12 Mp",
+    "zoom": "Digital, 5x",
+    "cell": ["GPRS", "LTE"]
+  }
+]
