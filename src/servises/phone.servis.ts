@@ -10,13 +10,6 @@ export const findMany = async(
   const phonesJSON = await fs.readFile('./src/data/phones.json', 'utf-8');
   let phones: Phone[] = JSON.parse(phonesJSON);
 
-  if (!isNaN(perPageNum) && !isNaN(pageNum)) {
-    const from = (pageNum - 1) * perPageNum;
-    const to = from + perPageNum;
-
-    phones = phones.slice(from, to);
-  }
-
   if (sort !== 'undefined') {
     phones.sort((p1, p2): number => {
       switch (sort) {
@@ -35,6 +28,13 @@ export const findMany = async(
     });
   }
 
+  if (!isNaN(perPageNum) && !isNaN(pageNum)) {
+    const from = (pageNum - 1) * perPageNum;
+    const to = from + perPageNum;
+
+    phones = phones.slice(from, to);
+  }
+
   return phones;
 };
 
@@ -51,4 +51,19 @@ export const findOne = async(id: string) => {
   const phones: Phone[] = JSON.parse(phonesJSON);
 
   return phones.find(phone => phone.id === id);
+};
+
+export const findHotPrice = async(amount: number) => {
+  const phonesJSON = await fs.readFile('./src/data/phones.json', 'utf-8');
+  let phones: Phone[] = JSON.parse(phonesJSON);
+
+  phones.sort((p1, p2): number => {
+    return (p2.fullPrice - p2.price) - (p1.fullPrice - p1.price);
+  });
+
+  if (amount) {
+    phones = phones.slice(0, amount);
+  }
+
+  return phones;
 };

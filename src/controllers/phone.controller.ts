@@ -1,5 +1,8 @@
 import express from 'express';
-import { checkLength, findOne, findMany } from '../servises/phone.servis';
+import { checkLength,
+  findOne,
+  findMany,
+  findHotPrice } from '../servises/phone.servis';
 
 export const getMany = async(req: express.Request, res: express.Response) => {
   const { perPage, page, sort } = req.query;
@@ -35,6 +38,23 @@ export const getOne = async(req: express.Request, res: express.Response) => {
     const phonesLength = await findOne(phoneId);
 
     res.send(phonesLength);
+  } catch (e) {
+    res.sendStatus(404);
+  }
+};
+
+export const getHotPrices = async(
+  req: express.Request,
+  res: express.Response,
+) => {
+  const { length } = req.query;
+
+  const hotLength = Number(length);
+
+  try {
+    const phones = await findHotPrice(+hotLength);
+
+    res.send(phones);
   } catch (e) {
     res.sendStatus(404);
   }
