@@ -46,7 +46,8 @@ export const checkLength = async() => {
 };
 
 export const findOne = async(id: string) => {
-  const phonesJSON = await fs.readFile('./src/data/tablets.json', 'utf-8');
+  const phonesJSON = await fs
+    .readFile('./src/data/tablets/tabletsInfo.json', 'utf-8');
   const tablets: Phone[] = JSON.parse(phonesJSON);
 
   return tablets.find(tablet => tablet.id === id);
