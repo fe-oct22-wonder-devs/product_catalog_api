@@ -45,7 +45,7 @@ export const getOne = async(req: express.Request, res: express.Response) => {
 
 export const getHotPrices = async(
   req: express.Request,
-  res: express.Response
+  res: express.Response,
 ) => {
   const { length } = req.query;
 
