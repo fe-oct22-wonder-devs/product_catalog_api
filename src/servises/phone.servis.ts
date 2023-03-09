@@ -46,11 +46,18 @@ export const checkLength = async() => {
 };
 
 export const findOne = async(id: string) => {
-  const phonesJSON = await fs
+  const phonesInfoJSON = await fs
     .readFile('./src/data/phones/phonesInfo.json', 'utf-8');
+  const phonesInfo: Phone[] = JSON.parse(phonesInfoJSON);
+
+  const phonesJSON = await fs
+    .readFile('./src/data/phones.json', 'utf-8');
   const phones: Phone[] = JSON.parse(phonesJSON);
 
-  return phones.find(phone => phone.id === id);
+  const phoneInfo = phonesInfo.find(phone => phone.id === id);
+  const phoneSmall = phones.find(phone => phone.phoneId === id);
+
+  return [phoneInfo, phoneSmall];
 };
 
 export const findHotPrice = async(amount: number) => {

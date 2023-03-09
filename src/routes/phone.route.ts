@@ -6,4 +6,3 @@ router.get('/', phoneControllers.getMany);
 router.get('/discount', phoneControllers.getHotPrices);
 router.get('/length', phoneControllers.getLength);
 router.get('/:phoneId', phoneControllers.getOne);
-router.get('/:phoneId', phoneControllers.getOne);
