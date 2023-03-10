@@ -2,8 +2,8 @@
   {
     "id": "1",
     "category": "tablets",
-    "phoneId": "ipad-pro-11inch-grey",
-    "itemId": "ipad-pro-11inch-grey",
+    "phoneId": "ipad-pro-128gb-grey",
+    "itemId": "ipad-pro-128gb-grey",
     "name": "iPad Pro 11-inch Grey",
     "fullPrice": 850,
     "price": 799,
@@ -17,8 +17,8 @@
   {
     "id": "2",
     "category": "tablets",
-    "phoneId": "ipad-air-10.9inch-grey",
-    "itemId": "ipad-air-10.9inch-grey",
+    "phoneId": "ipad-air-128gb-grey",
+    "itemId": "ipad-air-128gb-grey",
     "name": "iPad Air 10.9-inch Grey",
     "fullPrice": 650,
     "price": 599,
@@ -32,8 +32,8 @@
   {
     "id": "3",
     "category": "tablets",
-    "phoneId": "ipad-mini-8.3inch-grey",
-    "itemId": "ipad-air-8.3inch-grey",
+    "phoneId": "ipad-mini-128gb-grey",
+    "itemId": "ipad-air-128gb-grey",
     "name": "iPad mini 8.3-inch Grey",
     "fullPrice": 550,
     "price": 499,

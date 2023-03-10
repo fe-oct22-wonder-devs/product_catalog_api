@@ -46,9 +46,16 @@ export const checkLength = async() => {
 };
 
 export const findOne = async(id: string) => {
-  const phonesJSON = await fs
+  const tabletsInfoJSON = await fs
     .readFile('./src/data/tablets/tabletsInfo.json', 'utf-8');
-  const tablets: Phone[] = JSON.parse(phonesJSON);
+  const tabletsInfo: Phone[] = JSON.parse(tabletsInfoJSON);
 
-  return tablets.find(tablet => tablet.id === id);
+  const tabletsJSON = await fs
+    .readFile('./src/data/tablets.json', 'utf-8');
+  const tablets: Phone[] = JSON.parse(tabletsJSON);
+
+  const tabletInfo = tabletsInfo.find(tablet => tablet.id === id);
+  const tabletSmall = tablets.find(tablet => tablet.phoneId === id);
+
+  return [tabletInfo, tabletSmall];
 };

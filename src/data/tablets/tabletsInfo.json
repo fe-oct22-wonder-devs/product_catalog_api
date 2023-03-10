@@ -1,7 +1,7 @@
 [
   {
-    "id": "ipad-pro-11inch-grey",
-    "namespaceId": "ipad-pro-11inch",
+    "id": "ipad-pro-128gb-grey",
+    "namespaceId": "ipad-pro-128gb",
     "name": "iPad Pro 11-inch Grey",
     "capacityAvailable": ["128GB"],
     "capacity": "128GB",
@@ -46,8 +46,8 @@
     "cell": ["GPRS", "LTE"]
   },
   {
-    "id": "ipad-air-10.9inch-grey",
-    "namespaceId": "ipad-air-10.9inch",
+    "id": "ipad-air-128gb-grey",
+    "namespaceId": "ipad-air-128gb",
     "name": "iPad Air 10.9-inch Grey",
     "capacityAvailable": ["128GB"],
     "capacity": "128GB",
@@ -92,8 +92,8 @@
     "cell": ["GPRS", "LTE"]
   },
   {
-    "id": "ipad-mini-8.3inch-grey",
-    "namespaceId": "ipad-mini-8.3inch",
+    "id": "ipad-mini-128gb-grey",
+    "namespaceId": "ipad-mini-128gb",
     "name": "iPad mini 8.3-inch Grey",
     "capacityAvailable": ["128GB"],
     "capacity": "128GB",
